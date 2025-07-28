@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Calculadora - IMC</title>
 </head>
@@ -11,24 +14,36 @@
         <h1>Calcule seu IMC</h1>
         <h2>Cálculo de IMC</h2>
         <p id="infoTexto">
-        O IMC (Índice de Massa Corpórea) é uma medida reconhecida pela Organização Mundial da Saúde para avaliar se o peso de um indivíduo está adequado em relação à sua altura. <br>
-        O cálculo do IMC é realizado através da fórmula: <strong>peso(kg) / (altura)² (m)</strong>
+        O IMC (Índice de Massa Corpórea) é uma medida reconhecida pela Organização Mundial da Saúde para avaliar se o peso de um indivíduo está adequado em relação à sua altura. O cálculo do IMC é realizado através da fórmula: <strong>peso(kg) / (altura)² (m)</strong>
         
         </p>
-        <!--Elaborar um label para seleção de sexo do usuário
-        -->
-         <!--Elaborar um label para seleção de idade do usuário
-        -->
+        <div id="btnSexo">
+            <p>Sou:</p>
+
+            <input type="hidden" name="sexo" id="sexo" value="">
+
+            <button type="button" id="btnHomem">Homem</button>
+
+            <button type="button" id="btnMulher">Mulher</button>
+            
+        </div>
+
         <form id="formularioIMC">
             <label>Digite seu peso:</label>
             <input type="text" name="peso" id="peso" placeholder="Ex: 65" required>
+
             <label>Digite sua altura:</label>
             <input type="text" name="altura" id="altura" placeholder="Ex: 1.90" required>
-            <input type="submit" id="botaoCalcularIMC" value="Calcular IMC">
+
+            <div id="callToActionButtons">
+                <input type="submit" id="botaoCalcularIMC" value="Calcular IMC">
+                <button type="button" id="limparCampos">Limpar</button>
+            </div>
         </form>
-        
-        <div id="valorIMC"></div>
-    </div>
+            <p id="ultimoResultado"></p>
+
+            <div id="valorIMC"></div>
+            </div>
 
 
     <footer>Desenvolvido por <a href="https://linkedin.com/in/luizramosh">Luiz Ramos</a></footer>
