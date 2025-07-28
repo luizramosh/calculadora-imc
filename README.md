@@ -9,7 +9,6 @@ O IMC é uma medida reconhecida pela Organização Mundial da Saúde que ajuda a
 
 ![Screenshot da calculadora](image/calculadora-imc.png)
 
-
 ---
 
 ## 🚀 Funcionalidades
@@ -36,6 +35,13 @@ O IMC é uma medida reconhecida pela Organização Mundial da Saúde que ajuda a
 
 ---
 
+## 🌐 Acesso ao projeto
+
+O projeto está hospedado no GitHub Pages e pode ser acessado em:  
+[https://luizramosh.github.io/calculadora-imc/](https://luizramosh.github.io/calculadora-imc/)
+
+---
+
 ## 💡 Como usar
 
 1. Preencha os campos de **peso** e **altura**.
@@ -52,5 +58,9 @@ O IMC é uma medida reconhecida pela Organização Mundial da Saúde que ajuda a
 ├── style.css
 └── script.js
 ```
+# 📬 Contato
 
+Desenvolvido por Luiz Ramos  
+**luizramosh@hotmail.com**
 
+Ou visite meu [LinkedIn](https://linkedin.com/in/luizramosh)
